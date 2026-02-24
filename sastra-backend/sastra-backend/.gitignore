@@ -1,0 +1,25 @@
+# Secrets — NEVER commit these
+.env
+serviceAccountKey.json
+
+# LLM model weights (large files — add manually or use Git LFS)
+checkpoints/vocab.pkl
+checkpoints/best.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Data files
+users_data.json
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
